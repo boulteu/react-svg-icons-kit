@@ -34,12 +34,21 @@ You can use the following icons :
 - `Search` 🔍
 
 ```js
-<Add />
-<Arrow />
-<Close />
-<Loading />
-<Remove />
-<Search />
+import React from "react";
+import { Add, Arrow, Close, Loading, Remove, Search } from "react-svg-icons-kit";
+
+const Example = () => {
+    return (
+        <div>
+            <Add />
+            <Arrow />
+            <Close />
+            <Loading />
+            <Remove />
+            <Search />
+        </div>
+    );
+};
 ```
 
 ## Compatibility
