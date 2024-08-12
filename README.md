@@ -10,7 +10,11 @@ The package can be installed via [npm](https://github.com/npm/cli):
 npm install react-svg-icons-kit --save
 ```
 
-You’ll need to install React separately since those dependencies aren’t included in the package. Below is a simple example of how to use the SVG Icons Kit in a React view.
+You’ll need to install React and Tailwind CSS separately since those dependencies aren’t included in the package.
+
+Once Tailwind CSS installed, you'll need to add `"./node_modules/react-svg-icons-kit/**/*.{js,ts,jsx,tsx,mdx}"` to `content` in your `tailwind.config.js` file.
+
+Below is a simple example of how to use the SVG Icons Kit in a React view.
 
 ```js
 import React from "react";
@@ -52,6 +56,10 @@ const Example = () => {
 ```
 
 ## Compatibility
+
+### Tailwind CSS
+
+This package has been developed with version 3.4.6.
 
 ### React
 
